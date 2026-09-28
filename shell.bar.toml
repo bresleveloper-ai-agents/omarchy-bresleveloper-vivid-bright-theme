@@ -1,0 +1,12 @@
+# VIVID BRIGHT - top bar
+# Replaces the whole [bar] section of the generated shell.toml.
+[bar]
+# Alpha companions range from 0 (invisible) to 1 (opaque).
+background       = "#006400"   # forest neon - same as slot 8
+background-alpha = 0.5
+text             = "#00fff0"   # t - same as slot 7
+# Modules calling attention to themselves (recording, voxtype, alerts, updates)
+active           = "#e07a62"
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28

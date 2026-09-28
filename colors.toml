@@ -1,0 +1,53 @@
+# VIVID BRIGHT - a hand-made mix
+#
+#   Base palette ........ Futurist
+#   Slot 13 ............. Sakura Mochi  (bright_magenta)
+#   Slot 15 ............. Oxocarbon teal (bright_foreground) - Omarchy draws the
+#                         cursor in slot 15, and herdr uses it for the hostname
+#   Slot 0 .............. pure black #000000 (background)
+#   Slot 7 .............. t neon aqua #00fff0 (foreground) - normal text, herdr active row
+#   Slot 8 .............. forest neon #006400 (muted) - herdr active row, dim text
+#   Folder icons ........ Yaru-olive (icons.theme)
+#   Window borders ...... Sakura Mochi, swapped (active green, inactive pink)
+#   Browser tabs ........ Futurist (chromium.theme)
+
+mode = "dark"
+
+accent = "#3ec8d4"
+selection = "#173049"
+# slot 8 - forest neon (herdr active row bg, dim text)
+muted = "#006400"
+
+# slot 0 - pure black
+background = "#000000"
+dark_background = "#08111c"
+darker_background = "#050b14"
+lighter_background = "#173049"
+
+# slot 7 - t neon aqua (all normal text, herdr active row text)
+foreground = "#00fff0"
+dark_foreground = "#6b8496"
+light_foreground = "#c5d9e6"
+# slot 15 - Oxocarbon teal
+bright_foreground = "#08bdba"
+
+red = "#e07a62"
+yellow = "#f0b84a"
+orange = "#e89a4a"
+green = "#6bcf7a"
+cyan = "#3ec8d4"
+blue = "#3a8fb0"
+magenta = "#d06ae0"
+brown = "#9a6248"
+
+bright_red = "#f09078"
+bright_yellow = "#ffd078"
+bright_green = "#8ee89a"
+bright_cyan = "#7ae8f0"
+bright_blue = "#64b8d4"
+# slot 13 - Sakura Mochi
+bright_magenta = "#ffd0dc"
+
+# Window borders - Sakura Mochi colours, swapped (active = green, inactive = pink gradient)
+hyprland_active_border = "rgba(5aa15dee)"
+hyprland_inactive_border = "rgba(f23888ee) rgba(f0b7cacc) rgba(67dd82aa) 35deg"
